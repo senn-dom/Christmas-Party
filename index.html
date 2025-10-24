@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThessaParty</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./Thessa32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./Thessa16x16.png">
+    <style>
+        body {
+            background-color: #662222;
+        }
+        h1 {
+            text-align: center;
+            color: #F5DAA7;
+            margin: 0%;
+        }
+        hr {
+        border: none;
+        height: 1px;
+        background-color: #F5DAA7;
+        border-radius: 2px;
+        }
+        .description {
+            text-align: center;
+            color: #F5DAA7;
+            font-size: medium;
+            margin: 0%;
+        }
+        .container {
+            margin: 50px auto;
+            max-width: 800px;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        p {
+            color: #F5DAA7;
+        }
+        #christmastree {
+            text-align: center;
+            width: 200px;
+            height: 200px;
+        }
+        #party-details {
+            width: 1250px;
+            height: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(242, 255, 0, 0.893);
+            background-color: #F5DAA7;
+            padding: 5px;
+            color: #560011;
+        }
+        ul {
+            list-style: none;
+            font-size: large;
+            color: #F5DAA7;
+        }
+        #what-to-bring{
+            width: 1250px;
+            height: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(242, 255, 0, 0.893);
+            background-color: #F5DAA7;
+            padding: 5px;
+            color: #560011;
+        }
+        #attire {
+            width: 1250px;
+            height: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(242, 255, 0, 0.893);
+            background-color: #F5DAA7;
+            padding: 5px;
+            color: #560011;
+        }
+        fieldset {
+            border: 2px solid #F5DAA7;
+            color: #F5DAA7;
+        }
+        input[type="text"] {
+            background-color: #F5DAA7;
+            border: 1px solid black;
+            color: #4b0000;
+            padding: 5px;
+            border-radius: 5px;
+        }
+        .radio {
+            background-color: #F5DAA7;
+            border: black;
+        }
+        footer {
+            color: #F5DAA7;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>   
+        <h1>Merry Christmas Thessalonians!</h1>
+        <h2 class="description">Let's celebrate our Christmas party together!</h2>  
+    </header>   
+    <main>
+        <div class="container">
+        <p>
+        You are invitied to be a part of our Christmas party, together with our adviser Ms. Elaisa! <br>
+        Expect a potluck table, a short program, games with prizes, and a group photo. <br>
+        Please bring one dish to share if you can. Volunteers for setup and games are welcome!
+        </p>
+        <img src="./tree.png" alt="xmastree" width="400px" height="500px">
+        </div>
+    </main>
+    <div>
+        <h2 id="party-details" title="Party Details">PARTY DETAILS</h2>
+        <ul>
+            <li title="Party Details">
+                When:
+            </li>
+            <li title="Party Details">
+                - December 18,2025
+            </li>
+            <li title="Party Details">
+                - <time datetime="2025-12-18T14:00">2PM</time> to <time datetime="2025-12-18T17:00">5PM</time>
+            </li>
+            <br>
+            <li title="Party Details">
+                Where:
+            </li>
+            <li title="Party Details">
+                - Unida Christian Colleges, Ramos Bldg., Room 501 
+            </li>
+        </ul>
+    </div>
+    <div>
+        <h2 id="attire" title="Attire">ATTIRE</h2>
+        <ul>
+            <li title="Attire">
+                - Christmas Hat
+            </li>
+            <li title="Attire">
+                - Red T-Shirt 
+            </li>
+            <li title="Attire">
+                - Any Pants (Casual or Formal)
+            </li>
+        </ul>
+    </div>
+    <div>
+        <h2 id="what-to-bring">WHAT TO BRING:</h2>
+        <ul>
+            <li>
+                - Yourself
+            </li>
+            <li>
+                - Food or Snacks
+            </li>
+            <li>
+                - Gifts for exchange gift event
+            </li>
+            <li>
+                - Camera to capture every moment
+            </li>
+        </ul>
+    </div>
+    <fieldset>
+        <legend>EXCHANGE GIFT EVENT</legend>
+        <label for="fullname">Full Name:</label>
+        <input type="text" name="fullname" id="fullname" title="Full Name" >
+        <br>
+        <label for="codename">Code Name:</label>
+        <input type="text" name="codename" id="codename" title="Code Name">
+        <br>
+        <label for="gender">Gender:</label>
+        <br>
+        <input type="radio" name="male" id="male" title="Male">
+        <label for="male">Male</label>
+        <input type="radio" name="female" id="female" title="Female">
+        <label for="female">Female</label>
+    </fieldset>
+    <br><br>
+    <footer>11 - Thessalonians 2025</footer>
+</body>
+</html>
